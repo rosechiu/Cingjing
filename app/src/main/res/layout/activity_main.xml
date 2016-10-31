@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="tw.com.csie.chiu.cingjing.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:id="@+id/logo1"
+            android:src="@drawable/logo"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清淨大玩家"
+            android:id="@+id/title"
+            android:textSize="40sp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:id="@+id/logo2"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"></RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_weight="0.20"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/imgBtn1"
+                android:background="@drawable/traffic"
+                android:layout_marginLeft="20dp" />
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/imgBtn2"
+                android:background="@drawable/gift"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/imgBtn3"
+                android:background="@drawable/view"
+                android:layout_marginRight="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="交通資訊"
+                android:id="@+id/smallTxv1"
+                android:layout_marginLeft="35dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="參觀伴手禮"
+                android:id="@+id/smallTxv2"
+                android:layout_marginLeft="48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="公共景點"
+                android:id="@+id/smallTxv3"
+                android:layout_marginLeft="48dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/imgBtn4"
+                android:background="@drawable/hotel"
+                android:layout_marginLeft="65dp" />
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/imgBtn5"
+                android:background="@drawable/food"
+                android:layout_marginLeft="38dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="民宿飯店"
+                android:id="@+id/smallTxv4"
+                android:layout_marginLeft="80dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="美食小吃"
+                android:id="@+id/smallTxv5"
+                android:layout_marginLeft="70dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:layout_marginTop="43dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imgBtn6"
+                android:background="@drawable/phone" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imgBtn7"
+                android:background="@drawable/message"
+                android:layout_marginLeft="47dp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imgBtn8"
+                android:background="@drawable/map"
+                android:layout_marginLeft="47dp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imgBtn9"
+                android:background="@drawable/more"
+                android:layout_marginLeft="47dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="緊急諮詢電話"
+                android:id="@+id/smallTxv6"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="最新消息"
+                android:id="@+id/smallTxv7"
+                android:textSize="10sp"
+                android:layout_marginLeft="45dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="線上地圖"
+                android:id="@+id/smallTxv8"
+                android:textSize="10sp"
+                android:layout_marginLeft="53dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="更多"
+                android:id="@+id/smallTxv9"
+                android:textSize="10sp"
+                android:layout_marginLeft="70dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
